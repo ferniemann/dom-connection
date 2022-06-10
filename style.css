@@ -1,0 +1,14 @@
+:root {
+    --clr-bg: #f1f1f1;
+    --clr-txt: #444;
+}
+
+body {
+    background-color: var(--clr-bg);
+    color: var(--clr-txt);
+}
+
+body.dark {
+    --clr-bg: #444;
+    --clr-txt: #f1f1f1;
+}
